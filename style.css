@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+.top {
+    background-image: url(img/background.mobile.day.1.jpeg);
+    background-size: cover;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    z-index: -1;
+}
+
+header {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0, rgba(0, 0, 0, .5) 50%, rgba(0, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    height: 83px;
+    position: relative;
+    z-index: 2;
+}
+
+.form {
+    padding: 30px;
+    padding-top: 70px;
+    width: 384px;
+    margin: 3.5rem auto;
+    margin-top: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.label {
+    font-size: 18px;
+    color: #666;
+    padding-left: 10px;
+}
+
+.set {
+    width: 320px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.ins {
+    border-bottom: 35px solid white;
+}
+
+.remember {
+    margin-top: 27px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.re {
+    padding-right: 90px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+
+.tk {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+    
+.primary {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #0b6efd;
+    border-radius: 5px;
+    background-color: rgb(11, 110, 253);
+}
+
+.in {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rw {
+    margin-top: 12px;
+}
+
+.ow {
+    margin-top: 7px;
+}
+
+.anchor {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #126bc5;
+    line-height: 1.3rem;
+}
+
+footer {
+    background-color: white;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.folo {
+    font-size: 18px;
+    color: #717171;
+    padding-top: 7px;
+    padding-right: 14px;
+}
+
+.fc {
+    margin-right: 13px;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 25px;
+}
+
+.lin {
+    padding: 9px;
+    color: #757575;
+}
+
+.hous {
+    width: 15px;
+    height: 13px;
+}
+
+.linki {
+    max-width: 1100px;
+    line-height: 3.2em;
+    font-size: 10.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    flex-flow: row wrap;
+}
+
+.fdic {
+    padding-right: 12px;
+    color: #757575;
+}
+
+.lender {
+    color: #757575;
+}
+
+.Morgan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px auto;
+    color: #757575;
+    font-size: 10.5px;
+    margin-top: -17px;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 430px) {
+    footer {
+        background-color: #0b6efd;
+    }
+}
